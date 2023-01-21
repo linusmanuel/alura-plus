@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@900&family=Open+Sans:wght@400;600;700;800&family=Outfit:wght@300;400;600&family=Roboto:wght@300;400&display=swap');
+
 :root {
   --branco-principal: #FFFFFF;
   --cinza-secundario: #C0C0C0;
@@ -13,6 +15,7 @@
 body { 
   background-color: var(--cor-de-fundo);
   color: var(--branco-principal);
+  font-family: 'Inter', sans-serif;
 }
 
 .principal {
@@ -24,4 +27,52 @@ body {
 
 .container {
   height: 100vh;
+  padding-block: 125px;
+}
+
+.header-content {
+  max-width: 588px;
+  width: 100%;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.c-title-1 {
+  font-size: 28px;
+  color: var(--branco-principal);
+  line-height: 33px;
+  margin-bottom: 22px;
+}
+
+.header-content img {
+  margin-bottom: 54px;
+  padding-inline: 20px ;
+
+}
+
+.btn {
+  display: block;
+  padding: 16px;
+  border-radius: 8px;
+  color: var(--branco-principal);
+  font-size: 16px;
+  margin-bottom: 16px;
+  margin-inline: auto;
+  border: none;
+}
+
+.btn-primary {
+  background-color: var(--botao-azul);
+  min-width: 512px;
+}
+
+.btn-outlined {
+  background-color: transparent;
+  min-width: 512px;
+  border: solid 1px var(--branco-principal);
+}
+
+.header-content .c-text {
+  font-size: 12px;
+  color: var(--cinza-secundario);
 }
