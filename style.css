@@ -28,13 +28,8 @@ body {
 .container {
   height: 100vh;
   padding-block: 125px;
-}
-
-.header-content {
-  max-width: 588px;
-  width: 100%;
-  text-align: center;
-  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 
 .c-title-1 {
@@ -55,9 +50,8 @@ body {
   padding: 16px;
   border-radius: 8px;
   color: var(--branco-principal);
-  font-size: 16px;
+  font-size: 1em;
   margin-bottom: 16px;
-  margin-inline: auto;
   border: none;
 }
 
@@ -72,7 +66,7 @@ body {
   border: solid 1px var(--branco-principal);
 }
 
-.header-content .c-text {
+.container__aviso {
   font-size: 12px;
   color: var(--cinza-secundario);
 }
