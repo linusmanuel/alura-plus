@@ -54,7 +54,6 @@ body {
 
 .btn-primary {
   background-color: var(--botao-azul);
-  min-width: 512px;
   transition: .2s ease-in-out;
 }
 
@@ -65,7 +64,6 @@ body {
 }
 .btn-outlined {
   background-color: transparent;
-  min-width: 512px;
   border: solid 1px var(--branco-principal);
 }
 
@@ -127,6 +125,7 @@ body {
   text-align: center;
   padding-bottom: 80px;
   color: var(--branco-principal);
+  padding-inline: 10px;
 }
 
 .dispositivos__titulo {
@@ -188,17 +187,48 @@ body {
   letter-spacing: 0.4px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    background-image: none;
+    padding-block: 50px;
+    height: auto;
+  }
+
+  .container__caixa {
+    margin: 0;
+  }
+
+  .container__caixa img {
+    width: 95%;
+  }
+
+  .btn-primary, .btn-outlined {
+   
+  }
+
   .descricao__titulo {
-    font-size: 30px;
+    font-size: 25px;
   } 
 
+  .secondario {
+    margin: 0;
+  }
+  .secondario__imagem {
+    width: 100%;
+  }
+
   .dispositivos__titulo {
-    font-size: 30px;
+    font-size: 22px;
+    line-height: 25px;
   }
 
   .dispositivos__lista {
     display: block;
+  }
+
+  .dispositivos__lista img {
+    width: 95%;
   }
 
   .rodape__lista {
