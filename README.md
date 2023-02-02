@@ -1,5 +1,5 @@
 # Alura Plus
-![image](https://user-images.githubusercontent.com/79695824/208271000-ad22e2a2-0ecb-4c22-bba1-7561af36ceaf.png)
+![image](https://user-images.githubusercontent.com/79695824/216450500-3da43103-ffb1-4463-bab9-cd9d2dc0ab40.png)
 
 ---
 ## 🎯PROJECT'S DESCRIPTION 
