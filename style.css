@@ -31,6 +31,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 50% 50%;
+  padding: 0 10px;
 }
 
 .c-title-1 {
@@ -150,6 +151,7 @@ body {
   margin-inline: auto;
   padding-block: 50px;
   text-align: center;
+  padding: 0 10px;
 }
 
 .rodape__logo {
@@ -184,4 +186,26 @@ body {
   margin-bottom: 21px;
   line-height: 21px;
   letter-spacing: 0.4px;
+}
+
+@media screen and (max-width: 1024px) {
+  .descricao__titulo {
+    font-size: 30px;
+  } 
+
+  .dispositivos__titulo {
+    font-size: 30px;
+  }
+
+  .dispositivos__lista {
+    display: block;
+  }
+
+  .rodape__lista {
+    display: block;
+  }
+
+  .rodape__lista li {
+    margin-bottom: 15px;
+  }
 }
